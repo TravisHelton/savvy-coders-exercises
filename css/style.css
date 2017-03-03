@@ -8,6 +8,6 @@
   padding: 20px;
 
 }
-a{
-  text-underline-position:none;
+a:link{
+  text-decoration:none;
 }
