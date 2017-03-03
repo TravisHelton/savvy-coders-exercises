@@ -2,11 +2,12 @@
 #intro{  background-color: yellow;}
 .dolly{ color: purple; }
 .danger{color:red; text-align: center; text-transform: capitalize; text-transform: blink;}
-ul{
+.nav{
   text:white;
-  text-decoration: none;
   border:black;
   padding: 20px;
 
-
+}
+a.none{
+  text-transform: none;
 }
