@@ -11,7 +11,9 @@ ul{
 }
 li a{
   display: block;
-  color:white;
+  color: white;
+  text-align: center;
+  
 
 
 
