@@ -9,6 +9,13 @@ ul{
   text-align: center;
 
 }
+li a{
+  display: block;
+  color:white;
+
+
+
+}
 a:link{
   text-decoration:none;
 }
