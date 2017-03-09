@@ -1,24 +1,60 @@
 
-#intro{  background-color: yellow;}
-.dolly{ color: purple; }
-.danger{color:red; text-align: center; text-transform: capitalize; text-transform: blink;}
-ul{
-  text:white;
-  border:black;
-  padding: 20px;
+#intro{  background-color: yellow;
 
+}
+.dolly{ color: purple; }
+.danger{color:red; text-align: center; text-transform: capitalize;}
+.welcome{
+color: black;
+font-family: 'Roboto', sans-serif;
+text-transform: capitalize;
+text-align: center;
+font-size:70px;
+padding-top: 2%;
+
+}
+ul{
+  list-style-type: none;
+  padding: 50;
+  margin:0;
+  overflow: hidden;
+  background-color: grey;
+  border:10px;
+  float: right;
+
+}
+li{
+  float:left;
 }
 li a{
   display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration:none;
-
-
-
+  border:10px;
+  color:white;
+  text-align:left;
+  padding: 14px 30px;
+  text-decoration: none;
+  top:20%;
 
 }
 a:link{
   text-decoration:none;
+}
+li a:hover{
+  background-color: purple;
+}
+.img-circle {
+  width:150px;
+  height: 150px;
+  border-radius:50%;
+  position: fixed;
+  top: 70%;
+  left:85%;
+}
+img:hover{
+  opacity: .3;
+}
+body{
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Chattanooga,_Tennessee_Skyline.JPG/1024px-Chattanooga,_Tennessee_Skyline.JPG);
+  background-repeat:no-repeat;
+  background-size:cover;
 }
