@@ -1,5 +1,12 @@
 
 #intro{  background-color: yellow;
+        border:10px;
+
+}
+.contact{
+  font-size: 50px;
+  float:center;
+  text:yellow;
 
 }
 .dolly{ color: purple; }
@@ -12,6 +19,10 @@ text-align: center;
 font-size:70px;
 padding-top: 2%;
 
+}
+textarea{
+width:200px;
+height:200px;
 }
 ul{
 
