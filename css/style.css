@@ -5,13 +5,18 @@
 }
 .contact{
 
-  margin-left: 450px;
+  margin-left: 500px;
   margin-top:300px;
   width:100px;
   font-size: 20px;
 
-
-
+}
+.round{
+  -webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+border-width:1px;
+border-style:solid;
 
 }
 .hidden{
@@ -31,7 +36,7 @@ padding-top: 2%;
 
 }
 textarea{
-width:200px;
+width:160px;
 height:200px;
 }
 ul{
